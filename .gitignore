@@ -1,0 +1,20 @@
+ # Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Large data files (raw CSV stays local, not on GitHub)
+data/raw/
+
+# Environment files
+.env
+venv/
+.conda/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (large binaries)
+*.pkl
